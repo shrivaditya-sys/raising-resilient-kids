@@ -446,67 +446,129 @@ Indian psychologists at $18-36/session → delivered to markets paying $50-300/s
 
 ## WHY WE NEED MONEY: THE AI ROADMAP
 
-### Today: Rules Engine (what's live)
-- 40+ keyword rules × 7 skills × 3 tiers + word overlap similarity
-- Covers 80%+ of actions. ₹0 cost. No learning. No personalization.
-- **Gap:** Can't handle "practised tabla", "made rangoli", Hindi/regional actions
+### The Strategy: API First → Build In-House → ₹0 Marginal Cost
 
-### Phase 1: In-App Light Model — ₹30-50L
+```
+START WITH API (fast, works immediately, expensive)
+        ↓ collect data + validate what works
+BUILD IN-HOUSE MODEL (trained on our data, replaces API)
+        ↓ cost drops to zero
+SCALE TO MILLIONS (₹0 per user, infinite margin)
+```
+
+"We spend money on API calls to learn what works. Then we replace the API with our own model trained on our own data. The API spend is R&D — it buys us the training data for the model that makes us free forever."
+
+### Phase 1: API-Powered Features — ₹30-50L/year in API costs
+
+| Feature | Frontier Model (API) | What We Learn |
+|---------|---------------------|---------------|
+| Action classifier | Claude/GPT classifies any action → skill + points | Which actions map to which skills across languages |
+| AI Coach | Daily nudges, weekly Growth Reports | What advice parents actually follow |
+| Expert pre-brief | Summarizes 90 days of data before session | What patterns psychologists find most useful |
+| Parent Q&A | Answers parenting questions with research context | What questions parents ask most |
+| Forecast engine | Predicts trajectories from action patterns | Which patterns predict which outcomes |
+
+**Cost:** ₹30-50L/year in API calls (Claude Haiku/Sonnet or GPT-4o-mini)
+**Value:** Every API call generates training data for our in-house model
+
+### Phase 2: In-House Light Model — replaces 80% of API calls
 
 | What | Detail |
 |------|--------|
-| **Build** | Tiny text classifier trained on our own action data |
+| **Trained on** | 100K+ API-classified actions from Phase 1 |
 | **Size** | <1MB, runs on-device inside the app |
-| **Cost per user** | ₹0 (no API calls, no server compute) |
-| **Learns from** | Every action logged by every family |
-| **Handles** | Any language, any culture, any phrasing |
-| **Timeline** | 3 months after 10K+ user-created actions |
+| **Cost per user** | ₹0 (replaces API calls) |
+| **Handles** | Action classification in any language/culture |
+| **Timeline** | 6-9 months after launch |
+| **API cost saved** | 80% reduction → ₹6-10L/year instead of ₹30-50L |
 
-"The model that scales to 10 million users at zero marginal cost."
+"Phase 1 API calls are the training data for Phase 2. We're paying for R&D, not infrastructure."
 
-### Phase 2: Proprietary LLM Layer — ₹1-2 Cr
-
-| What | Detail |
-|------|--------|
-| **Build** | Fine-tune Llama/Mistral 7B on our proprietary dataset |
-| **Dataset** | Millions of action logs + psychologist-validated skill tags + outcome data |
-| **Powers** | AI Coach (daily nudges), Growth Reports, Expert pre-briefs, Parent Q&A |
-| **Moat** | Trained on data NO ONE ELSE HAS |
-| **Timeline** | Year 2, after 50K+ active families |
-
-"Every user makes the model smarter. Every model improvement makes the product better. This is the flywheel."
-
-### Phase 3: Predictive Child Development Model — ₹2-5 Cr
+### Phase 3: Proprietary LLM — replaces remaining 20% of API calls
 
 | What | Detail |
 |------|--------|
-| **Build** | Predictive model trained on longitudinal user data |
+| **Trained on** | Millions of action logs + outcomes + psychologist validations |
+| **Fine-tune** | Llama/Mistral 7B on our proprietary dataset |
+| **Powers** | AI Coach, Growth Reports, Expert pre-briefs, Forecasts |
+| **Cost per user** | ₹0 (self-hosted, no API dependency) |
+| **Timeline** | Year 2-3, after 50K+ active families |
+| **API cost saved** | 100% — fully in-house |
+
+"Every user makes the model smarter. The API disappears. The moat stays forever."
+
+### Phase 4: Predictive Child Development Model
+
+| What | Detail |
+|------|--------|
+| **Trained on** | Longitudinal data: what actions at age X predict outcomes at age X+5 |
 | **Predicts** | "Children showing pattern X at age 4 need intervention Y before age 7" |
-| **Validation** | Partner with universities (IITs, AIIMS, NIMHANS) to publish |
-| **Revenue** | License the model/API to schools, governments, health systems |
-| **Moat** | World's largest dataset of daily parent-child interactions |
+| **Validates** | Partner with IITs, AIIMS, NIMHANS to publish peer-reviewed research |
+| **Revenue** | License the model to schools, governments, health systems |
 | **Timeline** | Year 3-5, after 500K+ families with 1+ year of data each |
 
-"This turns Earn It Right from an app into a research institution."
-
-### Total AI Investment: ₹3-8 Cr over 3-5 years
+### The Cost Curve
 
 ```
-Year 1: ₹30-50L → Light classifier (on-device, zero cost/user)
-Year 2: ₹1-2 Cr → Fine-tuned LLM (AI Coach, Growth Reports)
-Year 3-5: ₹2-5 Cr → Predictive model (publishable research)
+Year 1:  ₹30-50L API spend  → Learning phase (100% API)
+Year 2:  ₹6-10L API spend   → Light model replaces 80% (20% API)
+Year 3:  ₹0 API spend       → Proprietary LLM replaces 100%
+Year 4+: ₹0 API spend       → Predictive model generates revenue
 ```
+
+| Year | API Cost | In-House Capability | Net AI Cost |
+|------|---------|-------------------|-------------|
+| Y1 | ₹30-50L | Keyword rules only | ₹30-50L |
+| Y2 | ₹6-10L | Light classifier (on-device) | ₹6-10L |
+| Y3 | ₹0 | Proprietary LLM (self-hosted) | ₹0 |
+| Y4+ | ₹0 | Predictive model (licensable) | **Revenue generating** |
 
 ### Why This Is Defensible
 
 | Layer | Data Required | Time to Replicate |
 |-------|-------------|-------------------|
-| Keyword rules | None | 1 week (anyone can copy) |
-| Light classifier | 10K+ tagged actions | 6 months |
-| Fine-tuned LLM | 1M+ action logs + outcomes | 2+ years |
-| Predictive model | 5M+ longitudinal records | 5+ years |
+| API features | None (anyone can call Claude) | 1 week |
+| Light classifier | 100K+ classified actions | 6 months + data |
+| Proprietary LLM | 1M+ action logs + outcomes | 2+ years + data |
+| Predictive model | 5M+ longitudinal records | 5+ years + data |
 
-"A competitor starting today cannot reach Phase 3 for at least 5 years. The data moat compounds daily."
+"Anyone can call an API. No one can replicate our training data. The API is the bridge — the in-house model is the moat."
+
+### The Double Moat: Tech + Human
+
+Most startups have one moat. We have two — and they reinforce each other.
+
+```
+┌──────────────────────────────────────────────────┐
+│  TECH MOAT (compounds with data)                 │
+│  API → Light model → Proprietary LLM → Predictor │
+│  Gets smarter with every user.                   │
+│  Replication time: 5+ years.                     │
+├──────────────────────────────────────────────────┤
+│  HUMAN MOAT (unreplicable from day one)          │
+│  Owned psychologists. Trained on our protocols.  │
+│  See app data before every session.              │
+│  Human-in-the-loop validates AI predictions.     │
+│  Prescribe medication. Track outcomes in app.    │
+│  Physical centers in 5+ cities.                  │
+│  Replication time: NEVER (if we own the supply). │
+└──────────────────────────────────────────────────┘
+```
+
+**How they reinforce each other:**
+1. **Psychologists validate AI classifications** → AI gets more accurate
+2. **AI pre-briefs psychologists** → sessions are more productive
+3. **Session outcomes train the predictive model** → forecasts improve
+4. **Better forecasts → more parents book sessions** → more revenue + more data
+5. **More data → better model → better forecasts** → flywheel accelerates
+
+**The investor question: "What if a competitor copies your app?"**
+"Great. They still don't have 800 psychologists trained on our protocols, seeing our data, validating our AI, and prescribing within our system. The app is replicable. The human layer is not. And the two together create a feedback loop that neither can replicate alone."
+
+**The Cult.fit analogy:**
+- Anyone could build a fitness app. Cult.fit built one PLUS owned the trainers PLUS owned the gyms.
+- Anyone can build a parenting app. We build one PLUS own the psychologists PLUS own the centers PLUS own the predictive model.
+- That's why Cult.fit is worth $1.5B and fitness apps are worth nothing.
 
 ---
 

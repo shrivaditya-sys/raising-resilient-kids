@@ -292,6 +292,55 @@ Seed Round — ₹2-3 Crore
 | Willingness to pay | ₹1,200-6,000/yr | $50-200/yr |
 | **TAM** | **₹6,000 Cr** | **$40B** |
 
+---
+
+## GLOBAL BEHAVIOURAL CORRECTION MARKET
+
+### Per-Country Market Size
+
+| Market | Total (2024) | Pediatric | Per Child/Year | Growth |
+|--------|-------------|-----------|---------------|--------|
+| **USA** | $97B | $66B (ADHD+Autism clinics alone) | ~$900 | 8.6% CAGR |
+| **Europe** | $113B | ~$35B (est.) | ~$400 | 2.4% CAGR |
+| **UK** | ~$18B | ~$6B (est.) | ~$450 | 3.5% CAGR |
+| **China** | ~$25B | ~$8B (est.) | ~$30 | 12% CAGR |
+| **Brazil** | ~$8B | ~$2.5B (est.) | ~$40 | 7% CAGR |
+| **India** | $20B | $8.3B (behavioral health) | ~$18 | 6.5% CAGR |
+
+### The Spend Gap: US vs India
+
+| | USA | India | Gap |
+|---|---|---|---|
+| Behavioral health market | $97B | $20B | 5x |
+| Per child per year | ~$900 | ~$18 | **50x** |
+| ADHD medication market | $15B+ | <$500M | 30x |
+| ABA therapy market | $8B | ~negligible | ∞ |
+| Child psychologists per 100K children | ~30 | <1 | 30x |
+| % children getting professional help | ~50% | <5% | 10x |
+
+"India spends 50x less per child on behavioural health than the US. Not because the need is smaller — because the infrastructure doesn't exist. We're building that infrastructure."
+
+### Global Pediatric Mental Health Market
+- **2024**: $404 billion globally
+- **2033**: $815 billion (5.5% CAGR)
+- **Digital mental health** subset: $28B → $153B by 2034 (18.6% CAGR)
+
+### The India Opportunity (our beachhead)
+- India behavioral health services: $8.3B (2024) → $16.7B by 2035
+- India online mental health: $133M (2024) → $452M by 2033 (13.4% CAGR)
+- India has 472M children but <1 child psychologist per 100K children
+- 82% of schools have no counsellor. 60% of ADHD kids never flagged.
+- **The entire system is broken. There is no supply. We build the supply.**
+
+### Why This Matters for Investors
+- US companies (Cerebral $4.8B, Brightside, Done) proved therapy + medication works for adults
+- Nobody has done it for children — especially in India
+- India is the test market: prove the model at Indian costs, then export to US at 50x pricing
+- The per-child spend gap (₹1,500 vs $900/year) is the biggest upside — as India's middle class grows, this gap narrows rapidly
+- Every 1% narrowing of this gap = ₹2,000 Cr market expansion
+
+---
+
 **Willingness to pay anchor:**
 Top Indian schools charge ₹1.7L–14.5L/year (Dhirubhai Ambani ₹9.6L, JAIN Intl ₹14.5L, Sai Intl ₹4.2L). Parents already spend this on academics. Character development at ₹3,000-6,000/year is <5% of what they pay for school — trivial for any family sending kids to a ₹1L+ school.
 | **SOM (Yr 3)** | **₹12 Cr ARR** | — |

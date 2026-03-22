@@ -442,6 +442,74 @@ Indian psychologists at $18-36/session → delivered to markets paying $50-300/s
 
 ---
 
+---
+
+## WHY WE NEED MONEY: THE AI ROADMAP
+
+### Today: Rules Engine (what's live)
+- 40+ keyword rules × 7 skills × 3 tiers + word overlap similarity
+- Covers 80%+ of actions. ₹0 cost. No learning. No personalization.
+- **Gap:** Can't handle "practised tabla", "made rangoli", Hindi/regional actions
+
+### Phase 1: In-App Light Model — ₹30-50L
+
+| What | Detail |
+|------|--------|
+| **Build** | Tiny text classifier trained on our own action data |
+| **Size** | <1MB, runs on-device inside the app |
+| **Cost per user** | ₹0 (no API calls, no server compute) |
+| **Learns from** | Every action logged by every family |
+| **Handles** | Any language, any culture, any phrasing |
+| **Timeline** | 3 months after 10K+ user-created actions |
+
+"The model that scales to 10 million users at zero marginal cost."
+
+### Phase 2: Proprietary LLM Layer — ₹1-2 Cr
+
+| What | Detail |
+|------|--------|
+| **Build** | Fine-tune Llama/Mistral 7B on our proprietary dataset |
+| **Dataset** | Millions of action logs + psychologist-validated skill tags + outcome data |
+| **Powers** | AI Coach (daily nudges), Growth Reports, Expert pre-briefs, Parent Q&A |
+| **Moat** | Trained on data NO ONE ELSE HAS |
+| **Timeline** | Year 2, after 50K+ active families |
+
+"Every user makes the model smarter. Every model improvement makes the product better. This is the flywheel."
+
+### Phase 3: Predictive Child Development Model — ₹2-5 Cr
+
+| What | Detail |
+|------|--------|
+| **Build** | Predictive model trained on longitudinal user data |
+| **Predicts** | "Children showing pattern X at age 4 need intervention Y before age 7" |
+| **Validation** | Partner with universities (IITs, AIIMS, NIMHANS) to publish |
+| **Revenue** | License the model/API to schools, governments, health systems |
+| **Moat** | World's largest dataset of daily parent-child interactions |
+| **Timeline** | Year 3-5, after 500K+ families with 1+ year of data each |
+
+"This turns Earn It Right from an app into a research institution."
+
+### Total AI Investment: ₹3-8 Cr over 3-5 years
+
+```
+Year 1: ₹30-50L → Light classifier (on-device, zero cost/user)
+Year 2: ₹1-2 Cr → Fine-tuned LLM (AI Coach, Growth Reports)
+Year 3-5: ₹2-5 Cr → Predictive model (publishable research)
+```
+
+### Why This Is Defensible
+
+| Layer | Data Required | Time to Replicate |
+|-------|-------------|-------------------|
+| Keyword rules | None | 1 week (anyone can copy) |
+| Light classifier | 10K+ tagged actions | 6 months |
+| Fine-tuned LLM | 1M+ action logs + outcomes | 2+ years |
+| Predictive model | 5M+ longitudinal records | 5+ years |
+
+"A competitor starting today cannot reach Phase 3 for at least 5 years. The data moat compounds daily."
+
+---
+
 **Willingness to pay anchor:**
 Top Indian schools charge ₹1.7L–14.5L/year (Dhirubhai Ambani ₹9.6L, JAIN Intl ₹14.5L, Sai Intl ₹4.2L). Parents already spend this on academics. Character development at ₹3,000-6,000/year is <5% of what they pay for school — trivial for any family sending kids to a ₹1L+ school.
 | **SOM (Yr 3)** | **₹12 Cr ARR** | — |

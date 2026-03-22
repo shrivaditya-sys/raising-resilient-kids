@@ -294,6 +294,67 @@ Seed Round — ₹2-3 Crore
 
 ---
 
+## WHAT INDIAN PARENTS ALREADY SPEND (PER CHILD/YEAR)
+
+| Category | Urban India | Premium Urban |
+|----------|-----------|---------------|
+| School fees | ₹25,000 (avg private) | ₹1.7L-14.5L (top schools) |
+| Coaching/tuitions | ₹13,000-16,000 | ₹50,000-2,00,000 |
+| Extracurricular (sports, dance, music, art) | ₹36,000 | ₹60,000-1,00,000 |
+| **Total per child/year** | **₹74,000-77,000** | **₹2.8L-16.5L** |
+| **Spent on character/behavioural development** | **₹0** | **₹0** |
+
+"Indian parents spend ₹75K-16L per child per year. Zero on the one thing that actually predicts long-term success."
+
+## WHAT PARENTS SPEND GLOBALLY (PER CHILD/YEAR)
+
+| Country | Education | Extracurricular | Behavioral/Mental Health | Total |
+|---------|-----------|----------------|-------------------------|-------|
+| **USA** | $12,000 | $2,000 | $900 | $14,900 |
+| **UAE** (expats) | $10,000-25,000 | $3,000 | minimal | $13,000-28,000 |
+| **China** | $1,200 (avg) / $17,400 (tutoring) | $2,000 | minimal | $3,200-19,400 |
+| **UK** | $8,000 | $1,500 | $500 | $10,000 |
+| **India** (urban) | $1,000 | $500 | $18 | $1,518 |
+| **India** (premium) | $3,500-20,000 | $1,200 | $0 | $4,700-21,200 |
+
+### China: The Cautionary Tale & Opportunity
+- Parents spend $17,400/yr on tutoring (some up to $43,500)
+- 17.5% of children aged 6-16 have mental disorders (Chinese Academy of Sciences)
+- After-school tutoring → sleep deprivation → depression → "orchid children"
+- Government banned for-profit weekend tutoring ("Double Reduction" policy)
+- **The gap: China spends on academics but not on character. Sound familiar?**
+- 280M children. Zero character development tools. Massive market.
+
+### The Labour Arbitrage Opportunity
+
+| | Indian Psychologist | US Psychologist | UAE Psychologist |
+|---|---|---|---|
+| Session cost | ₹1,500-3,000 ($18-36) | $150-300 | $200-400 |
+| Quality | Trained, English-speaking | — | — |
+| Virtual delivery | ✅ Zoom/WhatsApp | ✅ | ✅ |
+
+**Indian psychologists cost 10x less than US/UAE equivalents.** Same quality, same language (English), delivered virtually. This is the same arbitrage that built India's IT outsourcing industry.
+
+### Markets We Can Serve with Indian Psychologists
+
+| Market | Indian Diaspora | Children | Psychologist Shortage | Our Pricing Advantage |
+|--------|----------------|----------|----------------------|----------------------|
+| **UAE/GCC** | 3.5M Indians | ~1M kids | Severe | 5-8x cheaper than local |
+| **Southeast Asia** | 6M+ Indians | ~2M kids | Severe (Indonesia, Philippines) | 5-10x cheaper |
+| **UK** | 1.8M Indians | ~500K kids | NHS waitlists: 2+ years | 3-5x cheaper |
+| **US** | 4.5M Indians | ~1.5M kids | Severe in rural areas | 5-8x cheaper |
+| **China** | — | 280M kids | Minimal child psych infrastructure | 3x cheaper |
+
+**Expansion sequence (not US first):**
+1. **India** (home market, prove model)
+2. **UAE/GCC** (Indian diaspora, high willingness to pay, zero competition)
+3. **Southeast Asia** (similar family structures, psychologist shortage)
+4. **UK** (NHS waitlists = desperate parents willing to pay private)
+5. **US** (largest market, highest pricing, requires regulatory compliance)
+6. **China** (biggest unserved market, requires local partner)
+
+---
+
 ## GLOBAL BEHAVIOURAL CORRECTION MARKET
 
 ### Per-Country Market Size
@@ -331,6 +392,46 @@ Seed Round — ₹2-3 Crore
 - India has 472M children but <1 child psychologist per 100K children
 - 82% of schools have no counsellor. 60% of ADHD kids never flagged.
 - **The entire system is broken. There is no supply. We build the supply.**
+
+## PATH TO ₹1,000 Cr (Year 7)
+
+### India Base (₹436 Cr)
+
+| Layer | Y7 Assumption | Revenue |
+|-------|--------------|---------|
+| SaaS (AI Coach) | 8L families × 30% paid × ₹6,000/yr | ₹144 Cr |
+| Experts (virtual + in-person) | 800 psychologists × 30 sessions/mo × ₹2,500 | ₹72 Cr |
+| Centers | 20 centers × ₹5 Cr/yr | ₹100 Cr |
+| Medication | 80K subscribers × ₹15,000/yr | ₹120 Cr |
+| **India subtotal** | | **₹436 Cr** |
+
+"Indian parents spend ₹75K-16L per child per year. We're asking for ₹6K. That's <8% of what even average urban families spend."
+
+### International — Labour Arbitrage (₹620 Cr)
+
+Indian psychologists at $18-36/session → delivered to markets paying $50-300/session.
+
+| Market | Families | Sessions/mo | Price | Revenue |
+|--------|----------|------------|-------|---------|
+| **UAE/GCC** (Indian diaspora first) | 50K | 5,000 | $50 | ₹60 Cr |
+| **SE Asia** | 80K | 8,000 | $30 | ₹50 Cr |
+| **UK** (NHS waitlists = 2+ years) | 40K | 6,000 | $80 | ₹80 Cr |
+| **US** | 100K | 15,000 | $120 | ₹250 Cr |
+| **China** (via partner) | 50K | 3,000 | $40 | ₹30 Cr |
+| **Intl medication** | 50K subs | — | $100/mo | ₹150 Cr |
+| **Intl subtotal** | | | | **₹620 Cr** |
+
+### Blended Year 7: **₹1,056 Cr**
+
+**Expansion sequence:**
+1. India (prove model)
+2. UAE/GCC (Indian diaspora, same language, 5x pricing, zero regulatory friction)
+3. SE Asia (similar family structures, psychologist shortage)
+4. UK (NHS waitlists = parents desperate to pay private)
+5. US (largest market, highest pricing)
+6. China (biggest unserved, needs local partner)
+
+**Why not US first?** UAE has 3.5M Indians who speak the same language, share the same parenting culture, and pay 5x more. Zero regulatory friction. That's the bridge market before US.
 
 ### Why This Matters for Investors
 - US companies (Cerebral $4.8B, Brightside, Done) proved therapy + medication works for adults

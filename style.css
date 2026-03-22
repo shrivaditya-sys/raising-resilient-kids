@@ -384,7 +384,29 @@ a { text-decoration: none; color: inherit; }
   border: 1px solid var(--gray-200);
   border-radius: var(--radius);
   padding: 28px;
+  position: relative;
   transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.skill-card-center {
+  grid-column: 1 / -1;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.skill-number {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .skill-card:hover {
   transform: translateY(-2px);
